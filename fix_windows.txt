@@ -1,0 +1,5 @@
+conda config --add channels conda-forge
+conda config --add channels microsoft
+conda install pytest-playwright
+
+playwright install
